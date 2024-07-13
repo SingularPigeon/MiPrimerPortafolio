@@ -26,13 +26,13 @@
             <a class="nav-link active" aria-current="page" href="#">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Mis habilidaddes</a>
+            <a class="nav-link" href="#">Mis habilidades</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Proyectos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Contacto</a>
+            <a class="nav-link">Contacto</a>
           </li>
         </ul>
       </div>
@@ -68,44 +68,42 @@
 
   <!-- Mis habilidades -->
   <section>
-    <div class="container mt-5">
-      <div class="row mt-5 mx-auto">
+    <div class="container">
+      <div class="row my-5 mx-auto">
         <div class="col text-center">
           <h2>Mis habilidades</h2>
         </div>
       </div>
-      <div class="row mt-5 mx-auto">
-        <div class="col d-flex align-items-center gap-3">
+      <div class="row d-flex ps-5 my-5 mx-auto">
+        <div class="col-6 col-md-3 d-flex justify-content-start align-items-center gap-3 pb-4">
           <i class="fa-brands fa-html5 fs-1"></i>
           <span>HTML</span>
         </div>
-        <div class="col d-flex align-items-center gap-3">
+        <div class="col-6 col-md-3 d-flex justify-content-start align-items-center gap-3 pb-4">
           <i class="fa-brands fa-css3-alt fs-1"></i>
           <span>CSS</span>
         </div>
-        <div class="col d-flex align-items-center gap-3">
+        <div class="col-6 col-md-3 d-flex justify-content-start align-items-center gap-3 pb-4">
           <i class="fa-brands fa-sass fs-1"></i>
           <span>Sass</span>
-
         </div>
-        <div class="col d-flex align-items-center gap-3">
+        <div class="col-6 col-md-3 d-flex justify-content-start align-items-center gap-3 pb-4">
           <i class="fa-brands fa-bootstrap fs-1"></i>
           <span>Bootstrap</span>
-
         </div>
-        <div class="col d-flex align-items-center gap-3">
+        <div class="col-6 col-md-3 d-flex justify-content-start align-items-center gap-3 pb-4">
           <i class="fa-brands fa-square-js fs-1"></i>
           <span>Javascript</span>
         </div>
-        <div class="col d-flex align-items-center gap-3">
+        <div class="col-6 col-md-3 d-flex justify-content-start align-items-center gap-3 pb-4">
           <i class="fa-brands fa-vuejs fs-1"></i>
           <span>Vue</span>
         </div>
-        <div class="col d-flex align-items-center gap-3">
+        <div class="col-6 col-md-3 d-flex justify-content-start align-items-center gap-3 pb-4">
           <i class="fa-brands fa-figma fs-1"></i>
           <span>Figma</span>
         </div>
-        <div class="col d-flex align-items-center gap-3">
+        <div class=" col-6 col-md-3 d-flex justify-content-start align-items-center gap-3">
           <i class="fa-brands fa-github fs-1"></i>
           <span>Github</span>
         </div>
@@ -115,39 +113,39 @@
   <!-- Mis Proyectos -->
   <section class="pt-5">
     <div class="container">
-      <div class="row py-5">
+      <div class="row py-5 mx-auto">
         <div class="col text-center">
           <h2>Mis Proyectos</h2>
         </div>
       </div>
       <div class="row">
-        <div class="col-3">
+        <div class="col-6 col-md-3">
           <div class="card h-100 border-0 shadow-sm">
-            <img src="assets/img/preview1.png" class="card-img-top h-100" alt="...">
+            <img src="assets/img/preview1.png" class="card-img-top h-100" alt="Viajes Chile">
             <div class="card-body">
               <a href="#" class="text-decoration-none">Viajes Chile</a>
             </div>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-6 col-md-3">
           <div class="card h-100 border-0 shadow-sm">
-            <img src="assets/img/preview2.png" class="card-img-top h-100" alt="...">
+            <img src="assets/img/preview2.png" class="card-img-top h-100" alt="Cafetería Agere">
             <div class="card-body">
               <a href="#" class="text-decoration-none">Cafetería Agere</a>
             </div>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-6 col-md-3">
           <div class="card h-100 border-0 shadow-sm">
-            <img src="assets/img/preview3.png" class="card-img-top h-100" alt="...">
+            <img src="assets/img/preview3.png" class="card-img-top h-100" alt="Agencia K-travel">
             <div class="card-body">
               <a href="#" class="text-decoration-none">Agencia K-travel</a>
             </div>
           </div>
         </div>
-        <div class="col-3">
+        <div class="col-6 col-md-3">
           <div class="card h-100 border-0 shadow-sm">
-            <img src="assets/img/preview4.png" class="card-img-top h-100" alt="...">
+            <img src="assets/img/preview4.png" class="card-img-top h-100" alt="Hotel Cazimi">
             <div class="card-body">
               <a href="#" class="text-decoration-none">Hotel Cazimi</a>
             </div>
@@ -156,6 +154,8 @@
       </div>
     </div>
   </section>
+
+  <!-- Sección contacto -->
   <section class="py-5">
     <div class="container">
       <div class="row py-5 text-center">
@@ -164,25 +164,26 @@
         </div>
       </div>
       <div class="row">
-        <form action="" class="col-6">
-          <div class="row ">
+        <form action="" class="col-12 col-md-6 mb-5">
+          <div class="row">
             <div class="col mb-3">
-              <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+              <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
             </div>
             <div class="col mb-3">
-              <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+              <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
             </div>
           </div>
           <div class="mb-3">
             <input type="email" class="form-control" id="mail" placeholder="Tu mail">
           </div>
           <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Escribe tu mensaje</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
+            <label for="mensaje" class="form-label">Escribe tu mensaje</label>
+            <textarea class="form-control" id="mensaje" rows="7"></textarea>
           </div>
           <input class="btn btn-primary" type="submit" value="Enviar">
         </form>
-        <div class="col-6 d-flex flex-column row-gap-3 ps-5">
+<!-- Datos contacto -->
+        <div class="col-12 col-md-6 d-flex flex-column row-gap-3 ps-5">
           <div class="contact d-flex gap-4 align-items-center">
             <i class="fa-solid fa-phone"></i>
             <span>+56 98505 29 79</span>
