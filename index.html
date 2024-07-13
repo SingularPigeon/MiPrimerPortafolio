@@ -15,7 +15,7 @@
   <!-- Barra de navegación -->
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container">
-      <a class="navbar-brand" href="#"><img src="assets/img/logos/MARCAavatar.png" alt="" class="logo"></a>
+      <a class="navbar-brand" href="/index.html"><img src="assets/img/logos/MARCAavatar.png" alt="" class="logo"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -39,56 +39,75 @@
     </div>
   </nav>
   <!--  Hero section -->
-  <div class="section_hero">
+  <div class="section_hero mb-">
     <div class="container">
-      <div class="card m-3 border-0">
-        <div class="row g-0">
-          <div class="col">
-            <img src="assets/img/logos/palomita.png" class="img-fluid rounded-5 " alt="...">
-          </div>
-          <div class="col">
-            <div class="card-body">
-              <h1 class="card-title display-2 fw-medium">Paloma Rivera</h1>
-              <h2>Desarrolladora Frontend</h2>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eveniet consequuntur minus, adipisci ipsa exercitationem? Quam cum labore iste quasi. Nulla accusamus necessitatibus recusandae illo fugiat culpa qui commodi voluptatem.</p>
-              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      <div class="row">
+        <div class="card mt-5 border-0">
+          <div class="row g-0">
+            <div class="col-md-6">
+              <img src="assets/img/logos/palomita.png" class="img-fluid rounded-5 " alt="...">
             </div>
-            <input class="btn btn-primary" type="submit" value="Contáctame">
+            <div class="col-md-6 ps-3 my-auto">
+              <div class="card-body d-flex flex-column">
+                <h1 class="card-title display-3 fw-medium">Paloma Rivera</h1>
+                <h2>Desarrolladora Frontend</h2>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate eveniet
+                  consequuntur minus, adipisci ipsa exercitationem? Quam cum labore iste quasi. Nulla accusamus
+                  necessitatibus recusandae illo fugiat culpa qui commodi voluptatem.</p>
+              </div>
+              <div class="d-grid col-12 col-md-6 mt-5 ps-3">
+                <input class="btn btn-primary" type="submit" value="Contáctame">
+              </div>
+            </div>
           </div>
+
         </div>
       </div>
-
     </div>
   </div>
 
   <!-- Mis habilidades -->
   <section>
-    <div class="container">
-      <div class="row d-flex">
-        <h2>Mis habilidades</h2>
-        <div class="col">
-          <i class="fa-brands fa-html5"></i>
+    <div class="container mt-5">
+      <div class="row mt-5 mx-auto">
+        <div class="col text-center">
+          <h2>Mis habilidades</h2>
         </div>
-        <div class="col">
-          <i class="fa-brands fa-css3-alt"></i>
+      </div>
+      <div class="row mt-5 mx-auto">
+        <div class="col d-flex align-items-center gap-3">
+          <i class="fa-brands fa-html5 fs-1"></i>
+          <span>HTML</span>
         </div>
-        <div class="col">
-          <i class="fa-brands fa-sass"></i>
+        <div class="col d-flex align-items-center gap-3">
+          <i class="fa-brands fa-css3-alt fs-1"></i>
+          <span>CSS</span>
         </div>
-        <div class="col">
-          <i class="fa-brands fa-bootstrap"></i>
+        <div class="col d-flex align-items-center gap-3">
+          <i class="fa-brands fa-sass fs-1"></i>
+          <span>Sass</span>
+
         </div>
-        <div class="col">
-          <i class="fa-brands fa-square-js"></i>
+        <div class="col d-flex align-items-center gap-3">
+          <i class="fa-brands fa-bootstrap fs-1"></i>
+          <span>Bootstrap</span>
+
         </div>
-        <div class="col">
-          <i class="fa-brands fa-vuejs"></i>
+        <div class="col d-flex align-items-center gap-3">
+          <i class="fa-brands fa-square-js fs-1"></i>
+          <span>Javascript</span>
         </div>
-        <div class="col">
-          <i class="fa-brands fa-figma"></i>
+        <div class="col d-flex align-items-center gap-3">
+          <i class="fa-brands fa-vuejs fs-1"></i>
+          <span>Vue</span>
         </div>
-        <div class="col">
-          <i class="fa-brands fa-github"></i>
+        <div class="col d-flex align-items-center gap-3">
+          <i class="fa-brands fa-figma fs-1"></i>
+          <span>Figma</span>
+        </div>
+        <div class="col d-flex align-items-center gap-3">
+          <i class="fa-brands fa-github fs-1"></i>
+          <span>Github</span>
         </div>
       </div>
     </div>
@@ -96,48 +115,57 @@
   <!-- Mis Proyectos -->
   <section class="pt-5">
     <div class="container">
+      <div class="row py-5">
+        <div class="col text-center">
+          <h2>Mis Proyectos</h2>
+        </div>
+      </div>
       <div class="row">
         <div class="col-3">
-          <div class="card">
-            <img src="assets/img/preview1.png" class="card-img-top" alt="...">
+          <div class="card h-100 border-0 shadow-sm">
+            <img src="assets/img/preview1.png" class="card-img-top h-100" alt="...">
             <div class="card-body">
-              <a href="#" class="">Viajes Chile</a>
+              <a href="#" class="text-decoration-none">Viajes Chile</a>
             </div>
           </div>
         </div>
         <div class="col-3">
-          <div class="card">
-            <img src="assets/img/preview2.png" class="card-img-top" alt="...">
+          <div class="card h-100 border-0 shadow-sm">
+            <img src="assets/img/preview2.png" class="card-img-top h-100" alt="...">
             <div class="card-body">
-              <a href="#" class="">Cafetería Agere</a>
+              <a href="#" class="text-decoration-none">Cafetería Agere</a>
             </div>
           </div>
         </div>
         <div class="col-3">
-          <div class="card">
-            <img src="assets/img/preview3.png" class="card-img-top" alt="...">
+          <div class="card h-100 border-0 shadow-sm">
+            <img src="assets/img/preview3.png" class="card-img-top h-100" alt="...">
             <div class="card-body">
-              <a href="#" class="">Agencia K-travel</a>
+              <a href="#" class="text-decoration-none">Agencia K-travel</a>
             </div>
           </div>
         </div>
         <div class="col-3">
-          <div class="card">
-            <img src="assets/img/preview4.png" class="card-img-top" alt="...">
+          <div class="card h-100 border-0 shadow-sm">
+            <img src="assets/img/preview4.png" class="card-img-top h-100" alt="...">
             <div class="card-body">
-              <a href="#" class="">Hotel Cazimi</a>
+              <a href="#" class="text-decoration-none">Hotel Cazimi</a>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section class="pt-5">
+  <section class="py-5">
     <div class="container">
-      <h2>Contáctame</h2>
+      <div class="row py-5 text-center">
+        <div class="col">
+          <h2>Contáctame</h2>
+        </div>
+      </div>
       <div class="row">
         <form action="" class="col-6">
-          <div class="row">
+          <div class="row ">
             <div class="col mb-3">
               <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
             </div>
@@ -152,23 +180,44 @@
             <label for="exampleFormControlTextarea1" class="form-label">Escribe tu mensaje</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
           </div>
-          <input class="btn btn-primary" type="submit" value="Contáctame">
+          <input class="btn btn-primary" type="submit" value="Enviar">
         </form>
-        <div class="contact col d-flex column-gap-3">
-
-          <i class="fa-solid fa-phone"></i>
-          <span>+56 98505 29 79</span>
+        <div class="col-6 d-flex flex-column row-gap-3 ps-5">
+          <div class="contact d-flex gap-4 align-items-center">
+            <i class="fa-solid fa-phone"></i>
+            <span>+56 98505 29 79</span>
+          </div>
+          <div class="contact d-flex gap-4 align-items-center">
             <i class="fa-solid fa-envelope"></i>
-            <span>hola@palomapaolam.cl</span>
+            <span>hola@palomapaloma.cl</span>
+          </div>
+          <div class="contact d-flex gap-4 align-items-center">
             <i class="fa-brands fa-linkedin"></i>
-            <a href="https://www.linkedin.com/in/paloma-rivera-orellana-1bb348190/">Linkedin</a>
+            <a href="https://www.linkedin.com/in/paloma-rivera-orellana-1bb348190/"
+              class="text-decoration-none">Linkedin</a>
+          </div>
+          <div class="contact d-flex gap-4 align-items-center">
             <i class="fa-brands fa-github"></i>
-            <a href="https://github.com/SingularPigeon">Github</a>
+            <a href="https://github.com/SingularPigeon" class="text-decoration-none">Github</a>
+          </div>
         </div>
-
       </div>
-
+  </section>
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <a class="navbar-brand" href="/index.html"><img src="assets/img/logos/MARCAavatar.png" alt=""
+              class="logo"></a>
+        </div>
+      </div>
     </div>
+
+  </footer>
+  </div>
+
+  </div>
   </section>
 
 </body>
